@@ -44,3 +44,4 @@ addcolor(:mycolorscheme, [
   # add RGB color values here
 ], "description of your color scheme")
 ```
+After adding your color schemes, create a pull request.
