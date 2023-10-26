@@ -9,4 +9,8 @@ spekkie = colorschemes[:spekkie]
   @inferred get(spekkie, 0.0)
   @test get(spekkie, 0.0) != get(spekkie, 0.5)
   @test spekkie[end] ≈ spekkie[1.0]
+  
+  # test that searching works
+  @test length(findcolorscheme("cbio")) > 0
+  @test listcolors() == findcolorscheme("cbio")
 end

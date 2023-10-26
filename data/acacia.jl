@@ -6,5 +6,5 @@ loadcolorscheme(:acacia, [
     RGB(0.055,0.373,0.843),
     RGB(0.0,0.125,0.376),
     RGB(0.251,0.251,0.251)
-], "acacia", "Color scheme of the ACACIA project.")
+], "cbio", "Color scheme of the ACACIA project.")
 

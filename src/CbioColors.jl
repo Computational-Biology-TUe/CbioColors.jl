@@ -2,9 +2,8 @@ module CbioColors
 
   using Colors
   using ColorSchemes
-  import ColorSchemes.colorschemes
 
-  export colorschemes
+  export colorschemes, findcolorscheme, listcolors
 
   # TODO: add named colors like TU/e red etc.
   # const cbiocolors = Dict{Symbol, Color}()
@@ -19,6 +18,10 @@ module CbioColors
     for key in keys(colorschemes)
       @eval const $key = colorschemes[$(QuoteNode(key))]
     end
+  end
+
+  function listcolors()
+    findcolorscheme("cbio")
   end
 
   function __init__()
