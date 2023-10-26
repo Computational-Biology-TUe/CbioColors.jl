@@ -24,6 +24,10 @@ module CbioColors
     findcolorscheme("cbio")
   end
 
+  function addcolorscheme(vname::Symbol, colorcodes, description = "")
+    loadcolorscheme(vname, colorcodes, "cbio", description)
+  end
+
   function __init__()
     addcbiocolorschemes()
   end

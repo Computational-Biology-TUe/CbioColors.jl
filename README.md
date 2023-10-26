@@ -8,12 +8,13 @@ The package is registered in the public Computational Biology Julia registry, wh
 
 ```julia
 using Pkg
-pkg"registry add git@github.com:Computational-Biology-TUe/CbioJulia.git
+pkg"registry add git@github.com:Computational-Biology-TUe/CbioJulia.git"
 ```
 
 You now have access to the `CbioJulia` package registry. You only have to do this once for a Julia installation.
 
 You can then install the package using:
+
 ```julia
 pkg"add CbioColors"
 ```
@@ -32,4 +33,14 @@ listcolors()
 
 # you can also use the function from ColorSchemes.jl
 findcolorscheme("cbio")
+```
+
+## Contributing
+You can add your own color scheme in the `data` directory. For personal color schemes, use the `signatures.jl` file and add your color scheme:
+```julia
+addcolor(:mycolorscheme, [
+  RGB(0, 0, 0),
+  RGB(1, 1, 1),
+  # add RGB color values here
+], "description of your color scheme")
 ```
