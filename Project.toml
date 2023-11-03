@@ -1,7 +1,7 @@
 name = "CbioColors"
 uuid = "eedfb5d8-ec7d-4792-bf75-d1e748dd39dd"
 authors = ["Max de Rooij"]
-version = "0.0.3"
+version = "0.0.4"
 
 [deps]
 ColorSchemes = "35d6a980-a343-548e-a6ea-1d62b119f2f4"
