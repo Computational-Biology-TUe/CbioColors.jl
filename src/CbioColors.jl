@@ -12,6 +12,8 @@ module CbioColors
     # load the installed schemes
     datadir = joinpath(dirname(@__DIR__), "data")
     include(joinpath(datadir, "acacia.jl"))
+    include(joinpath(datadir, "campus.jl"))
+    include(joinpath(datadir, "matlab.jl"))
     include(joinpath(datadir, "signatures.jl"))
 
     # create them as constants...
