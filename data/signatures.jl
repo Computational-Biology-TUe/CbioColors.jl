@@ -14,3 +14,12 @@ addcolorscheme(:spekkie, [
   RGB(0.984,0.929,0.827),
   RGB(0.824,0.651,0.639)
 ], "Precision nutrition number 1 color scheme.")
+
+addcolorscheme(:chatgpt,[
+  RGB(31/255, 119/255, 180/255),  # Dark Blue
+  RGB(255/255, 127/255, 14/255),  # Dark Orange
+  RGB(44/255, 160/255, 44/255),  # Dark Green
+  RGB(214/255, 39/255, 40/255),  # Dark Red
+  RGB(148/255, 103/255, 189/255),  # Dark Purple
+  RGB(89/255, 89/255, 89/255),  # Dark Gray
+], "Chat GPT Generated Color Scheme")
